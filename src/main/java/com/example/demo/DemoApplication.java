@@ -12,8 +12,11 @@ public class DemoApplication {
     public static void main(String[] args) {
       SpringApplication.run(DemoApplication.class, args);
     }
+
+   // This method handles GET requests to the "/hello" endpoint
     @GetMapping("/hello")
+    // We're requesting from the query parameter "name" from the request URL, with default of 'World'
     public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-      return String.format("Hello %s!", name);
+        return String.format("Hello %s!", name);
     }
 }
