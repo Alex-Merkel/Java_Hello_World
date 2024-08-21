@@ -1,7 +1,7 @@
 # Hello World Project
 
 ## Project Description
-A simple Java project that prints "Hello, World!" to the console.
+A simple Java project that prints "Hello World!" to the console.
 
 ## Installation Instructions
 1. Clone the repository:
